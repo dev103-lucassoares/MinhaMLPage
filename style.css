@@ -1,32 +1,57 @@
 body {
-    background-image: url(https://images.unsplash.com/photo-1558591710-4b4a1ae0f04d?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) ;
-    
+    background-image: linear-gradient(to bottom, #10658F, #4DB7EB);
     background-size: cover;
+    height: 100%;
     font-family: Arial, Helvetica, sans-serif;
-    color: rgb(83, 81, 81);
+    ;
+    }
+    
+    html {
+        height: 100%;
     }
     .nav-bar ul li {
-        display: inline}
+        display: inline;
+        
+    }
 
     .nav-bar ul li a {
         display: inline-block;
+        justify-content: center;
         padding: 1% 10%;
-        color: rgb(84, 87, 90);
+        color: #14B298;
+        position: relative;
+        padding: 30px;
+        font-size: 18px;
+        text-decoration: none;
         }
         
     .nav-bar ul li a:hover {
-        color: rgb(28, 28, 158);
+        color: white;
+        transition: 1s;
+        transform: scale(1.1);    
     }
- 
+    
+    .divh1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
     .h1 {
-        border: 0,5px solid;
-        width: max-content;
         padding: 20px;
-        
-        
-        text-align: center;
-        background-image: linear-gradient(to bottom, white, grey); 
+        font-family:'Times New Roman', Times, serif
     }
+
+    img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        height: 50%;
+        border-radius: 15%;
+        box-shadow: -1px -3px 5px 1px;
+                
+    }
+
     
     
     
